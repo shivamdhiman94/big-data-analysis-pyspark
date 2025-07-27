@@ -397,7 +397,7 @@ class FinalBigDataAnalyzer:
             
     def run_complete_analysis(self):
         """Execute the complete big data analysis pipeline"""
-        print("🎉 INTERNSHIP - BIG DATA ANALYSIS")
+        print("🎉 - BIG DATA ANALYSIS")
         print("=" * 65)
         print("🎯 Objective: Demonstrate scalable big data processing with PySpark")
         print(f"⏰ Started: {datetime.now()}")
