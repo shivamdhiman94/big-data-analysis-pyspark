@@ -1,0 +1,36 @@
+# Big Data Analysis Requirements
+# ===========================================================
+
+# Core Big Data Processing Frameworks
+pyspark>=3.4.0
+dask[complete]>=2023.5.0
+findspark>=2.0.1
+
+# Data Processing & Analysis
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Visualization & Plotting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter Notebook Support
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+
+# Performance & Monitoring
+psutil>=5.9.0
+memory-profiler>=0.60.0
+
+# Additional Utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Development & Testing (Optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Note: Java 8+ is required for PySpark functionality
+# Windows users may need to set JAVA_HOME environment variable
